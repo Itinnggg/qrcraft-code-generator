@@ -216,7 +216,7 @@ export default function QRcraft() {
       <header style={s.header}>
         <div style={s.logoRow}>
           <span style={s.logoDot} />
-          <span style={s.logoText}>QRcraft</span>
+          <span style={s.logoText}>Tingcraft</span>
           <span style={s.logoDot} />
         </div>
         <h1 style={s.h1}>
@@ -558,7 +558,7 @@ const styles = {
     marginTop: 12, fontSize: 15, color: "#9B8EC4",
   },
   layout: {
-    display: "flex", gap: 24, width: "100%", maxWidth: 900,
+    display: "flex", gap: 24, width: "100%", maxWidth: 1100,
     position: "relative", zIndex: 1, flexWrap: "wrap",
     justifyContent: "center",
   },
@@ -686,7 +686,7 @@ const styles = {
   },
   previewCol: {
     display: "flex", flexDirection: "column", gap: 16,
-    flex: "0 0 280px",
+    flex: "1 1 300px", maxWidth: 380,
   },
   previewCard: {
     background: "#1A1235",
