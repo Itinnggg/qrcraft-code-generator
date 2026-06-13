@@ -495,9 +495,10 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: "48px 20px",
+    padding: "48px 40px",
     position: "relative",
     overflowX: "hidden",
+    boxSizing: "border-box",
   },
   blob1: {
     position: "fixed", top: -150, left: -150,
@@ -558,7 +559,7 @@ const styles = {
     marginTop: 12, fontSize: 15, color: "#9B8EC4",
   },
   layout: {
-    display: "flex", gap: 24, width: "100%", maxWidth: 1100,
+    display: "flex", gap: 24, width: "100%", maxWidth: "100%",
     position: "relative", zIndex: 1, flexWrap: "wrap",
     justifyContent: "center",
   },
